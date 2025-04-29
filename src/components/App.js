@@ -22,7 +22,7 @@ const App = () => {
       <ChildComponent2 setSelectedOption={setSelectedOption}/>
       </div>
         {/* Do not remove the main div */}
-        <h1>Selected Option: {selectedOption}</h1>
+        <p>Selected Option: {selectedOption}</p>
     </div>
   );
 };
