@@ -1,1 +1,35 @@
+*{
+    background-color: #7fff00;
+    margin: 5px;
+}
 
+#child1{
+    background-color:  #f04a08f3;
+    font-size: large;
+    padding: 8px;
+    
+    display: block;
+    height: 80px;
+}
+
+#child2{
+    background-color:  #FFFF00;
+    font-size: large;
+    padding: 8px;
+    display: block;
+    height: 80px;
+}
+
+#child1>h2{
+    background-color:  #f04a08f3;
+}
+
+#child2>h2{
+    background-color:  #FFFF00;
+}
+
+button{
+    background-color: white;
+    height: 30px;
+    width: 100px;
+}
